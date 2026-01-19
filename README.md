@@ -12,15 +12,20 @@ This project implements a competitive Scrabble AI engine capable of generating m
 * **Memory Management:** Optimized use of `std::vector` and pointer arithmetic to minimize overhead.
 * **Constraints:** Full Cross-checking implementation for 2D board validity.
 
+
 ## Build & Run
 This project includes a **Makefile** for easy compilation.
+The source code is located in the `src` directory.
 
 ```bash
-# Build the project
+# 1. Enter the source directory
+cd src
+
+# 2. Build the project
 make
 
-# Run the engine
+# 3. Run the executable
 ./test_board
 
-# Clean build files (optional)
+# 4. Clean build files (optional)
 make clean

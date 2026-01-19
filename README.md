@@ -13,11 +13,14 @@ This project implements a competitive Scrabble AI engine capable of generating m
 * **Constraints:** Full Cross-checking implementation for 2D board validity.
 
 ## Build & Run
-Ensure your source files are in a `src` folder (or adjust the path below).
+This project includes a **Makefile** for easy compilation.
 
 ```bash
-# Compile with optimization flags
-g++ -O3 -std=c++17 src/*.cpp -o scrabble_engine
+# Build the project
+make
 
 # Run the engine
 ./scrabble_engine
+
+# Clean build files (optional)
+make clean

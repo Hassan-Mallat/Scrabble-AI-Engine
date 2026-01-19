@@ -4,7 +4,7 @@
 
 This project implements a competitive Scrabble AI engine capable of generating moves in near-constant time. It features a custom **GADDAG** data structure and an optimized **Backtracking** algorithm.
 
-**Achievement:** Ranked **1st in Class (Major de Promotion)** at Université Claude Bernard Lyon 1.
+**Achievement:** Ranked **1st in Class (Major de Promotion for this project)** at Université Claude Bernard Lyon 1.
 
 ## Key Technical Features
 * **Data Structure:** Directed Acyclic Word Graph (GADDAG) for bidirectional word generation.

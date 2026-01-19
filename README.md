@@ -20,7 +20,7 @@ This project includes a **Makefile** for easy compilation.
 make
 
 # Run the engine
-./scrabble_engine
+./test_board
 
 # Clean build files (optional)
 make clean
